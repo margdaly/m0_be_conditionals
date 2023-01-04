@@ -105,18 +105,21 @@ loves_treats = true
 age = 1
 
 # YOU DO:
-# Determine if the dog loves to play and loves treats
+puts "Determine if the dog loves to play and loves treats"
 puts loves_to_play && loves_treats
 
 
-# Determine if the dog loves to play and loves the dog park
+puts "Determine if the dog loves to play and loves the dog park"
 puts loves_to_play && loves_dog_park
 
-# Determine if the dog loves to play or loves the dog park
+puts "Determine if the dog loves to play or loves the dog park"
 puts loves_to_play || loves_dog_park
 
-# Determine if the dog loves to play and is a puppy
-puts loves_to_play && age < 2
+puts "Determine if the dog loves to play and is a puppy"
+puppy = 1
+puts loves_to_play && age == puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+puts "The final line of code evaluated to true because I assigned the value of 1 to both age 
+and being a puppy. They have the excat same value so the answer is true."
