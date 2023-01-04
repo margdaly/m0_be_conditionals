@@ -89,13 +89,13 @@ end
 cups_of_flour = 1
 has_sauce = true
 
-If cups_of_flour == 1 and has_sauce == true
+If cups_of_flour == 1 && has_sauce == true
   p "I cannot make pizza"
-elsif cups_of_flour == 5 and has_sauce == false
+elsif cups_of_flour == 5 && has_sauce == false
   p "I cannot make pizza"
-elsif cups_of_flour == 2 and has_sauce == true
+elsif cups_of_flour == 2 && has_sauce == true
   p "I can make pizza"
-elsif cups_of_flour == 3 and has_sauce == true
+elsif cups_of_flour == 3 && has_sauce == true
   p "I can make pizza"
 
 end 
