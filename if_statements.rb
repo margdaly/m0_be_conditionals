@@ -61,6 +61,7 @@ if num_quarters >= 2
   puts "I have enough money for a gumball"
 elsif num_quarters < 2
   puts "I don't have enough money for a gumball"
+end
 
 num_quarters = 4
 
@@ -68,7 +69,7 @@ if num_quarters >= 2
   p "I have enough money for a gumball"
 elsif num_quarters < 2 
   p "I don't have enough money for a gumball"
-
+end 
 
 
 #####################
