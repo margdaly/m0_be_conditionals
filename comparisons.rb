@@ -61,20 +61,30 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+puts "Is 4 less than 9? This should print: true"
+
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+puts "Is 4 less than the value of books? Since we gave books the value of 3 it should print false. 
+4 is not less than 3"
+
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+puts "Friends was given a value of 6 while siblings was given a value of 2. 
+It's asking if friends (value) is greater than siblings (value) or is 6 greater than 2? 
+It should print: true. 6 is grater than 2"
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+puts "This is asking if the attendees have a different value than meals. 9 is not exactly equal to 8. 
+This should print: true. Someone is going to be hangry!"
 
 
 #-------------------
