@@ -87,3 +87,15 @@ elsif num_quarters < 2
 
 cups_of_flour = 1
 has_sauce = true
+
+If cups_of_flour = 1 and has_sauce = true
+p "I cannot make pizza"
+elsif cups_of_flour = 5 and has_sauce = false
+  p "I cannot make pizza"
+elsif cups_of_flour = 2 and has_sauce = true
+  p "I can make pizza"
+elsif cups_of_flour = 3 and has_sauce = true
+  p "I can make pizza"
+else 
+  p "I'm ordering pizza"
+end 
